@@ -61,7 +61,6 @@ export default function Home() {
                 </Link>
                 , an LMS for a local education institute, now used by over 5000
                 users.
-                https://github.com/ninnroot/utilitas
               </p>
               <p>
                 I am the author of{" "}
