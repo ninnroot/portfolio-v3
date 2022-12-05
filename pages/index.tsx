@@ -61,6 +61,18 @@ export default function Home() {
                 </Link>
                 , an LMS for a local education institute, now used by over 5000
                 users.
+                https://github.com/ninnroot/utilitas
+              </p>
+              <p>
+                I am the author of{" "}
+                <Link
+                  href="https://github.com/ninnroot/utilitas"
+                  className={styles.link}
+                  target="_blank"
+                >
+                  django-utilitas
+                </Link>
+                , a feature-rich Django package with many read-to-use classes.
               </p>
             </section>
             <section>
