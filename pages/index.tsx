@@ -43,6 +43,12 @@ export default function Home() {
                 the full development process, the backend space is where I
                 thrive.
               </p>
+              <p>
+                Fun (I guess?) fact: I love metal music. My favourite band is <Link
+                  href="https://open.spotify.com/artist/05fG473iIaoy82BF1aGhL8?si=dd99efca80b945ea"
+                  className={styles.link}
+                  target="_blank"> Slipknot </Link>
+              </p>
             </section>
             <section>
               <h3 className={styles.link} id="things-I-have-worked-on">
