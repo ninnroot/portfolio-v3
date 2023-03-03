@@ -24,7 +24,7 @@ export default function Home() {
             <p
               style={{ padding: 0, margin: 0, color: "grey", fontSize: "13px" }}
             >
-              Currently interning as a fullstack developer at a Malaysian
+              Currently working as a fullstack developer at a Malaysian
               company, <br /> And working on several freelance projects.
             </p>
           </header>
