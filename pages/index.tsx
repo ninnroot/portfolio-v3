@@ -18,7 +18,6 @@ export default function Home() {
                 paddingBottom: "10px",
                 margin: "0px",
                 fontSize: "14px",
-                textDecoration: "underline",
               }}
             >
               <Link
