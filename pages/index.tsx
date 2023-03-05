@@ -51,14 +51,15 @@ export default function Home() {
                 <Link href="#about-me">About me ✨</Link>
               </h3>
               <p>
-                I am an 18-year-old self-taught programmer from Myanmar. My
-                passion for data and automation drove me to become obsessed with
-                programming. I enjoy creating apps that automate tedious tasks.
+                I am a {new Date().getFullYear() - 2004}-year-old self-taught
+                programmer from Myanmar. My passion for data and automation
+                drove me to become obsessed with programming. I enjoy creating
+                apps that automate tedious tasks.
               </p>
               <p>
-                I have been coding for over 3 years now. Despite my expertise of
-                the full development process, the backend space is where I
-                thrive.
+                I have been coding for over {new Date().getFullYear() - 2020}{" "}
+                years now. Despite my expertise of the full development process,
+                the backend space is where I thrive.
               </p>
               <p>
                 Fun (I guess?) fact: I love metal music. My favourite band is{" "}
@@ -70,7 +71,18 @@ export default function Home() {
                   {" "}
                   Slipknot{" "}
                 </Link>
+                . Check out my Spotify playlist{" "}
+                <Link
+                  href="https://open.spotify.com/playlist/5zKIwbdfHQLxQgkmdGUVuT?si=b7c11c48824c410f"
+                  className={styles.link}
+                  target="_blank"
+                >
+                  {" "}
+                  here
+                </Link>
+                .
               </p>
+              <p>Also, I hate ChatGPT.</p>
             </section>
             <section>
               <h3 className={styles.link} id="things-I-have-worked-on">
@@ -144,12 +156,20 @@ export default function Home() {
               <p>
                 I study computer science because I want to know how things
                 function. This constant pursuit of knowledge has lead me to
-                tinker around with various technologies
+                tinker around with various technologies.
               </p>
               <p>
                 I have experimented with neural networks and machine learning
                 technologies, worked with websockets for real-time applications,
-                and created physics engines and various mini-games.
+                and created physics engines and{" "}
+                <Link
+                  href="https://rogue-like.thiha.net/"
+                  target="_blank"
+                  className={styles.link}
+                >
+                  various mini-games
+                </Link>
+                .
               </p>
             </section>
 
