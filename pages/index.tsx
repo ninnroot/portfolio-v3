@@ -4,28 +4,45 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <>
-      <div className={styles.banner}>
-        <p className={styles.link}>
-          <Link
-            href="https://en.wikipedia.org/wiki/2021_Myanmar_coup_d%27%C3%A9tat"
-            target="_blank"
-          >
-            See what's happening in Myanmar 🇲🇲
-          </Link>
-        </p>
-      </div>
       <div className={styles.container}>
+        {/* <div className={styles.banner}>
+        
+
+        </div> */}
+
         <div className={styles.innerContainer}>
           <header>
+            <p
+              className={styles.link}
+              style={{
+                paddingBottom: "10px",
+                margin: "0px",
+                fontSize: "14px",
+                textDecoration: "underline",
+              }}
+            >
+              <Link
+                href="https://en.wikipedia.org/wiki/2021_Myanmar_coup_d%27%C3%A9tat"
+                target="_blank"
+              >
+                See what's happening in Myanmar 🇲🇲
+              </Link>
+            </p>
+
             <h1 className={`${styles.title}`}>Hello, I am Thiha Swan Htet</h1>
             <h2 className={styles.title}>
               A fullstack developer based in Singapore
             </h2>
             <p
-              style={{ padding: 0, margin: 0, color: "grey", fontSize: "13px" }}
+              style={{
+                padding: 0,
+                margin: 0,
+                color: "#ACACAC",
+                fontSize: "13px",
+              }}
             >
-              Currently working as a fullstack developer at a Malaysian
-              company, <br /> And working on several freelance projects.
+              Currently working as a fullstack developer at a Malaysian company,{" "}
+              <br /> And working on several freelance projects.
             </p>
           </header>
           <main className={styles.body}>
@@ -44,10 +61,15 @@ export default function Home() {
                 thrive.
               </p>
               <p>
-                Fun (I guess?) fact: I love metal music. My favourite band is <Link
+                Fun (I guess?) fact: I love metal music. My favourite band is{" "}
+                <Link
                   href="https://open.spotify.com/artist/05fG473iIaoy82BF1aGhL8?si=dd99efca80b945ea"
                   className={styles.link}
-                  target="_blank"> Slipknot </Link>
+                  target="_blank"
+                >
+                  {" "}
+                  Slipknot{" "}
+                </Link>
               </p>
             </section>
             <section>
