@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -49,6 +50,7 @@ export default function Home() {
               <h3 className={styles.link} id="about-me">
                 <Link href="#about-me">About me ✨</Link>
               </h3>
+
               <p>
                 I am a {new Date().getFullYear() - 2004}-year-old self-taught
                 programmer from Myanmar. My passion for data and automation
