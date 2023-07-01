@@ -31,7 +31,7 @@ export default function Home() {
 
             <h1 className={`${styles.title}`}>Hello, I am Thiha Swan Htet</h1>
             <h2 className={styles.title}>
-              A fullstack developer based in Singapore
+              A fullstack developer based in Singapore 🇸🇬
             </h2>
             <p
               style={{
@@ -92,6 +92,17 @@ export default function Home() {
                 </Link>
               </h3>
               <p>
+                I design scalable systems, write backend, manage tech team, and
+                assume overall leadership in all things technical{" "}
+                <Link
+                  href="https://multitechmyanmar.com"
+                  className={styles.link}
+                >
+                  at the company I co-founded
+                </Link>
+                .
+              </p>
+              <p>
                 I was a lead programmer/architect for{" "}
                 <Link
                   href="https://suconnect.teachersucenter.com"
@@ -145,6 +156,7 @@ export default function Home() {
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
 
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg" />
                 </div>
               </div>
             </section>
