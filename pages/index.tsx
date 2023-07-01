@@ -95,6 +95,7 @@ export default function Home() {
                 I design scalable systems, write backend, manage tech team, and
                 assume overall leadership in all things technical{" "}
                 <Link
+                target="_blank"
                   href="https://multitechmyanmar.com"
                   className={styles.link}
                 >
