@@ -33,16 +33,12 @@ export default function Home() {
             <h2 className={styles.title}>
               A fullstack developer based in Singapore 🇸🇬
             </h2>
-            <p
-              style={{
-                padding: 0,
-                margin: 0,
-                color: "#ACACAC",
-                fontSize: "13px",
-              }}
-            >
-              Currently working as a fullstack developer at a Malaysian company,{" "}
-              <br /> And working on several freelance projects.
+            <p>
+              Currently building{" "}
+              <Link className={styles.link} href={"https://schedjuice.com"} target="_blank">
+                Schedjuice
+              </Link>
+              .
             </p>
           </header>
           <main className={styles.body}>
@@ -95,7 +91,7 @@ export default function Home() {
                 I design scalable systems, write backend, manage tech team, and
                 assume overall leadership in all things technical{" "}
                 <Link
-                target="_blank"
+                  target="_blank"
                   href="https://multitechmyanmar.com"
                   className={styles.link}
                 >
