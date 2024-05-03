@@ -125,7 +125,7 @@ export default function Home() {
                 </div>
                 <div className="">
                   <Image
-                    src="/gf.jpg"
+                    src="/gf.jpeg"
                     width={0}
                     height={0}
                     sizes="100vw"
