@@ -28,16 +28,7 @@ export default function Home() {
                 target="_blank"
               >
                 Schedjuice
-              </Link>
-              , and NodeJS developer at{" "}
-              <Link
-                className={styles.link}
-                href={"https://skubbs.com/"}
-                target="_blank"
-              >
-                Skubbs
-              </Link>
-              .
+              </Link>.
             </p>
           </header>
           <main className="space-y-4">
@@ -85,55 +76,6 @@ export default function Home() {
                   ></Image>
                   <p className="  text-sm italic text-center py-1">
                     Thiha Swan Htet
-                  </p>
-                </div>
-              </div>
-            </section>
-            <section>
-              <h3 className={styles.link} id="about-gf">
-                <Link href="#about-gf">About my girlfriend ❤️</Link>
-              </h3>
-              <div className="flex justify-between gap-3 max-md:flex-col">
-                <div className="space-y-2">
-                  <p>
-                    My girlfriend, Wine Su Waddy, is a full-time emotional
-                    support specialist for Thiha Swan Htet (me). Apart from her
-                    full-time job, she is also interning at{" "}
-                    <Link
-                      className={styles.link}
-                      href="https://www.kdb.co.kr/BZCOWS00N01.act?wcmsPath=/hmp/ch/gm/yg/CHGMYG5500.html&GmBrnId=YG&_mnuId=IHIHGM2141&GmMlngTc=en&jobNotice=Y"
-                      target="_blank"
-                    >
-                      Korea Development Bank
-                    </Link>
-                    , and a part-time English language teacher at{" "}
-                    <Link
-                      href="https://teachersucenter.com"
-                      className={styles.link}
-                      target="_blank"
-                    >
-                      Teacher Su International School
-                    </Link>{" "}
-                    (where I am also the Head of Technology).
-                  </p>
-                  <p>
-                    She also enjoys eating (any food is fine as long as it is
-                    edible), ordering clothes online, taking photos of herself
-                    (90% of my iCloud storage is full of her photos), and
-                    yapping.
-                  </p>
-                </div>
-                <div className="">
-                  <Image
-                    src="/gf.jpeg"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    alt="my-photo"
-                    style={{ width: "100%", height: "auto" }}
-                  ></Image>
-                  <p className="  text-sm italic text-center py-1">
-                    My girlfriend, Wine Su Waddy
                   </p>
                 </div>
               </div>
